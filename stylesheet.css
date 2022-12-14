@@ -54,3 +54,7 @@ border-radius:6px;
 font-size:30px;
 cursor:pointer;
 }
+
+input[type=submit]:active {
+background-color:darkgreen;
+}
