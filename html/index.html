@@ -10,13 +10,13 @@
 <legend>Maharashtra e-voting </legend>
 
 <label for="name">Name: </label>
-<input type="text" id="name"></br>
+<input type="text" id="name" placeholder="Enter your name" required></br>
 
 <label for="father_name">Father Name: </label>
-<input type="text" id="father_name"></br>
+<input type="text" id="father_name" placeholder="Enter your Father name" required></br>
 
 <label for="Dob">Date of birth: </label>
-<input type="date" id="Dob"></br>
+<input type="date" id="Dob" max="2004-01-01" placeholder="mm-dd-yyyy" required></br>
 
 <label for="gender">Gender: </label>
 <input type="radio" name="gender" value="Male" id="Male">
@@ -25,12 +25,13 @@
 <label for="Female">Female</label></br>
 
 <label for="parties">Choose party to vote:</label>
-<select name="parties">
-<option value="NULL">Select party</option>
+<select name="parties" placeholder="Select party"  required>
+<option value="">Select party</option>
 <option value="Bhartiya Janta Party">Bhartiya Janta Party(BJP)</option>
 <option value="Shiv Sena">Shiv Sena</option>
 <option value="Congress">Congress</option>
 <option value="Nationalist Congress party">Nationalist Congress party(NCP)</option>
+<option value="NOTA">NOTA</option>
 </select></br>
 
 </fieldset>
@@ -38,4 +39,7 @@
 <input type="submit" value="Submit" >
 </form>
 </body>
+<script>
+
+</script>
 </html>
